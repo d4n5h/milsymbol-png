@@ -1,6 +1,6 @@
 {
   "name": "milsymbol-png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "milsymbol library with toPNG function",
   "main": "index.js",
   "directories": {
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/d4n5h/milsymbol-png/issues"
   },
-  "homepage": "https://github.com/d4n5h/milsymbol-png#readme"
+  "homepage": "https://github.com/d4n5h/milsymbol-png#readme",
+  "dependencies": {
+    "milsymbol": "^2.0.0",
+    "sharp": "^0.26.3"
+  }
 }
