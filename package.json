@@ -3,13 +3,29 @@
   "version": "1.0.0",
   "description": "milsymbol library with toPNG function",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "milsymbol": "^2.0.0",
-    "sharp": "^0.26.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n5h/milsymbol-png.git"
+  },
+  "keywords": [
+    "milsymbol",
+    "png",
+    "2525",
+    "symbol",
+    "svg",
+    "toPNG",
+    "mil"
+  ],
+  "author": "Daniel Shlomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4n5h/milsymbol-png/issues"
+  },
+  "homepage": "https://github.com/d4n5h/milsymbol-png#readme"
 }
